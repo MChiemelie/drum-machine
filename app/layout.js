@@ -11,7 +11,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer />
+      </body>
     </html>
   )
 }
